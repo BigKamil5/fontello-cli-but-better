@@ -1,0 +1,24 @@
+{
+    "dependencies": {
+        "commander": "^3.0.0",
+        "needle": "^2.4.0",
+        "open": "^7.0.0",
+        "unzipper": "^0.10.5"
+    },
+    "description": "Command line interface for Fontello.. but with ability to actually save config",
+    "engines": {
+        "node": ">=8"
+    },
+    "main": "./src/fontello",
+    "bin": {
+        "fontello-cli-but-better": "bin/index.js"
+    },
+    "keywords": [
+        "cli",
+        "fontello",
+        "font",
+        "icon"
+    ],
+    "name": "fontello-cli-but-better",
+    "version": "0.0.1"
+}
