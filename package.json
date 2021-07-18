@@ -13,6 +13,7 @@
     "bin": {
         "fontello-cli-but-better": "bin/index.js"
     },
+    "homepage": "https://github.com/BigKamil5/fontello-cli-but-better",
     "keywords": [
         "cli",
         "fontello",

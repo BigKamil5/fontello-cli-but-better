@@ -2,7 +2,7 @@
 
 ### Installation
 ```sh
-$ npm install -g fontello-cli-but-better
+$ npm install -D fontello-cli-but-better
 ```
 
 ### What for
