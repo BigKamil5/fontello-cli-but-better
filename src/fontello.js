@@ -91,14 +91,6 @@ class Fontello {
                 }
             }).on('finish', () => {
                 console.log('Install complete.');
-
-                fs.unlink(path.join(sessionPath, Fontello.FONTELLO_SESSION_FILENAME), (err) => {
-                    if (err) {
-                        throw err;
-                    }
-
-                    console.log('Session deleted');
-                });
             });
         });
     }
